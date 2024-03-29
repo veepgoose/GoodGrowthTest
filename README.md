@@ -13,7 +13,11 @@ The solution integrates weather data from a reliable weather API to display curr
 
 - Displaying weather information: The weather data is prominently displayed on the property page, using a clear and visually appealing format that aligns with the National Trust's brand guidelines. The current weather conditions and a 5-day forecast are presented to users.
 
+![Image 1](Images/TodayWithSeparator.JPG)
+
 - Fallback mechanism: In case of technical issues or API limitations, a fallback mechanism is implemented to handle situations where weather data cannot be retrieved. A user-friendly message is displayed, acknowledging the temporary unavailability of the data, and a link to an alternative weather source (e.g., BBC Weather) is provided.
+
+![Image 2](SimulatedError/NTErrorTest.JPG)
 
 - A/B testing: To measure the impact of the weather feature on user engagement and the likelihood of visiting a property, an A/B test is proposed. The test compares user behavior between a control group (without the weather feature) and a variant group (with the weather feature), considering factors such as click-through rates, time spent on the page, and the influence of different weather conditions.
 
